@@ -1,0 +1,138 @@
+{
+  "title": "Portfolio",
+  "subtitle": "Selected video, copywriting, and storytelling work from Hong Kong organisations.",
+  "featuredVideoIds": [],
+  "videos": [
+    {
+      "provider": "youtube",
+      "videoId": "2vjm2kcSnIs",
+      "title": "Industrialist of the Year Award 2025",
+      "subtitle": null,
+      "client": "Federation of Hong Kong Industries",
+      "thumbnail": "/images/portfolio/2vjm2kcSnIs.jpeg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "kocV9Xr9Bys",
+      "title": "Hong Kong Innopreneur Awards Highlight Opening Video",
+      "subtitle": null,
+      "client": "Federation of Hong Kong Industries",
+      "thumbnail": "/images/portfolio/kocV9Xr9Bys.jpg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "j09GzdNvUFQ",
+      "title": "中國香港學界體育聯會吉祥物設計比賽頒獎禮",
+      "subtitle": null,
+      "client": "The Schools Sports Federation of Hong Kong, China",
+      "thumbnail": "/images/portfolio/j09GzdNvUFQ.jpg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "54EE9uAI8tc",
+      "title": "HKICF Documentary \"When Music is Chosen\"",
+      "subtitle": null,
+      "client": "Hong Kong Inter-School Festival",
+      "thumbnail": "/images/portfolio/54EE9uAI8tc.jpg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "yDq1gotnMjA",
+      "title": "Founder's Message, The Hong Kong Virtuoso Chorus",
+      "subtitle": null,
+      "client": "The Hong Kong Virtuoso Chorus",
+      "thumbnail": "/images/portfolio/yDq1gotnMjA.jpg"
+    },
+    {
+      "provider": "vimeo",
+      "videoId": "1176120482",
+      "title": "專題報道 vol.1：愛麗絲式教育劇場 | 藝術總監訪問：陳恆輝",
+      "subtitle": null,
+      "client": "Art-mate",
+      "thumbnail": "/images/portfolio/1176120482.png"
+    },
+    {
+      "provider": "vimeo",
+      "videoId": "1177214016",
+      "title": "專題報道 vol.1：愛麗絲式教育劇場 | 行政總監訪問：陳瑞如",
+      "subtitle": null,
+      "client": "Art-mate",
+      "thumbnail": "/images/portfolio/1177214016.png"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "d3piBmbHV8Y",
+      "title": "Hong Kong Hymnos Festival 2025 — Vice-Chair interview",
+      "subtitle": "香港聖詠節2025 副主席分享",
+      "client": "Hong Kong Hymnos Festival",
+      "thumbnail": "/images/portfolio/d3piBmbHV8Y.jpg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "xecsD9g4mlE",
+      "title": "Airwallex 2D motion graphics",
+      "subtitle": "Airwallex - 2D Motion Graphics Animation",
+      "client": "Airwallex (via One Eye Tech)",
+      "thumbnail": "/images/portfolio/xecsD9g4mlE.jpg"
+    },
+    {
+      "provider": "youtube",
+      "videoId": "lk1pVlrv_fc",
+      "title": "Panasonic ziaino air purifier",
+      "subtitle": "Panasonic ziaino® 次亜塩素酸空間除菌脫臭機",
+      "client": "Shun Hing Technology",
+      "thumbnail": "/images/portfolio/lk1pVlrv_fc.jpg"
+    }
+  ],
+  "copywriting": [
+    {
+      "title": "Awards Booklet",
+      "client": "Federation of Hong Kong Industries",
+      "href": "https://drive.google.com/file/d/1SBLHSWIAeeNlJWo-Qhefoz-mYat32kBK/view",
+      "kind": "Publication",
+      "thumbnail": "/images/portfolio/innopreneur-awards-2022.png"
+    },
+    {
+      "title": "Social media content and design",
+      "client": "Hong Kong Hymnos Festival",
+      "href": "https://www.instagram.com/hkhymnosfest/",
+      "kind": "Social media",
+      "thumbnail": "/images/portfolio/hkhf-ig.png"
+    },
+    {
+      "title": "House Programme",
+      "client": "Hong Kong Inter-School Choral Festival",
+      "href": "https://issuu.com/hkicf/docs/hkicf2024_house_programme?fr=sOGIwOTYzMDU0Nzc",
+      "kind": "Non-profit Organisation",
+      "thumbnail": "/images/portfolio/hkicf2024.png"
+    },
+    {
+      "title": "Feature Article",
+      "client": "Art-mate",
+      "href": "https://www.art-mate.net/enews/202602?lang=tc",
+      "kind": "Art & Culture",
+      "thumbnail": "/images/portfolio/art-mate2026.png"
+    },
+    {
+      "title": "Journal Translation",
+      "client": "City University of Hong Kong",
+      "href": "https://www.cityu.edu.hk/research/stories/2024/06/06/unlocking-transformative-potential-2d-materials-advance-next-generation-electronics",
+      "kind": "Academic Article",
+      "thumbnail": "/images/portfolio/cityu2024.png"
+    },
+    {
+      "title": "Logo Revamp",
+      "client": "VETOP",
+      "href": "https://www.program.com.hk/zh-hant/%E7%94%A2%E5%93%81/vetop-%E6%B0%B8%E5%B2%A1%E6%90%AA%E7%93%B7%E6%9D%BF/",
+      "kind": "Branding",
+      "thumbnail": "/images/portfolio/vetop2026.png"
+    },
+    {
+      "title": "Writing and Interview",
+      "client": "852Web3",
+      "href": null,
+      "kind": "Magazine",
+      "thumbnail": "/images/portfolio/852-web3.jpeg"
+    }
+  ]
+}

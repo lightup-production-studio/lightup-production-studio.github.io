@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "headline": "Capturing Moments, Crafting Stories",
+    "subhead": "Hong Kong-based video production, copywriting, and strategic storytelling for organizations that need their work seen, heard, and understood clearly.",
+    "backgroundImage": "/images/placeholders/hero.svg",
+    "ctaPrimary": "Email Us",
+    "ctaSecondary": "View Portfolio"
+  },
+  "intro": {
+    "title": "About Light Up Production",
+    "body": "Light Up Production is a team of creative professionals specialising in video production, copywriting, and media strategy. Grounded in a decade of journalistic rigor and storytelling sensitivity, we deliver authentic content that resonates with diverse audiences across the corporate, educational, and non-profit sectors."
+  },
+  "work": {
+    "title": "Our Work",
+    "eyebrow": "What we do",
+    "letters": [
+      {
+        "char": "V",
+        "drop": 0,
+        "crop": 20,
+        "label": "Video"
+      },
+      {
+        "char": "C",
+        "drop": 9,
+        "crop": 20,
+        "label": "Copywriting"
+      },
+      {
+        "char": "B",
+        "drop": 0,
+        "crop": 20,
+        "label": "Branding"
+      },
+      {
+        "char": "G",
+        "drop": 13,
+        "crop": 20,
+        "label": "Graphic"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Video, copywriting, branding, and graphic & visual — built around your message.",
+    "items": [
+      {
+        "title": "Video",
+        "body": "A great video blends technical precision with narrative depth. We produce corporate profile films, promotional content, event coverage, and human-centric documentaries with deep sensitivity to each client’s unique voice."
+      },
+      {
+        "title": "Copywriting",
+        "body": "Words have power, and our copywriting service is designed to harness that power clearly and persuasively. From social media management to publications and campaign messaging, every word is crafted to connect with clarity and purpose."
+      },
+      {
+        "title": "Branding",
+        "body": "We build authentic brand identities and messaging frameworks that define your organisation’s purpose, establish a distinct voice, and build lasting trust."
+      },
+      {
+        "title": "Graphic and Visual",
+        "body": "From annual reports and corporate publications to digital assets and social graphics, we transform complex ideas into compelling visual narratives."
+      }
+    ]
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Organisations across culture, education, industry, and community.",
+    "logos": [
+      { "name": "Federation of Hong Kong Industries", "src": "/images/clients/fhki.png" },
+      { "name": "City University of Hong Kong", "src": "/images/clients/cityu.png" },
+      { "name": "Hong Kong Inter-School Choral Festival", "src": "/images/clients/hkicf.png" },
+      { "name": "Chung Ying Theatre Company", "src": "/images/clients/chung-ying.png" },
+      { "name": "Art-mate", "src": "/images/clients/art-mate.png" },
+      { "name": "Match Showroom", "src": "/images/clients/match-showroom.png" },
+      { "name": "VETOP", "src": "/images/clients/vetop.png" }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Selected video, copywriting, and storytelling work from Hong Kong organisations."
+  },
+  "founder": {
+    "title": "About Winnie Yip",
+    "role": "Producer · Video · Copywriting · Storytelling",
+    "body": [
+      "Winnie Yip is an award-winning journalist with a decade of experience across Hong Kong media, and as a Beijing correspondent. Recognized with accolades from the Newspaper Society of Hong Kong and CUHK Journalism Awards, she brings editorial rigor and human-centric storytelling to corporate and community messaging. Before founding Light Up Production, she served as Public Affairs Manager for the Hong Kong Inter-School Choral Festival and produced the documentary When Music is Chosen. She now helps organizations amplify their impact through video, copy, and publications."
+    ],
+    "image": ""
+  },
+  "contactBand": {
+    "title": "Ready to tell your story?",
+    "body": "Tell us about your project — video, copy, branding, or graphic & visual. We will reply with clear next steps."
+  }
+}

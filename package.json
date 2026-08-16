@@ -1,0 +1,30 @@
+{
+  "name": "lightup-production-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3006",
+    "build": "next build",
+    "preview": "next build && npx serve out -l 3007",
+    "start": "next start -p 3006",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.62.1",
+    "serve": "^14.2.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

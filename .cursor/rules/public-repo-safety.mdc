@@ -1,0 +1,43 @@
+---
+description: Warns before committing or deploying secrets to this PUBLIC GitHub Pages repo
+alwaysApply: true
+---
+
+# Public Repo Safety — lightup-production-studio.github.io
+
+This repository is **public**. Every committed file — and the full git history — is visible to anyone on the internet.
+
+## Before every commit or push
+
+1. Check staged files for secrets: API keys, tokens, passwords, `.env` files, service account JSON, or any credential.
+2. Check for private client documents: contracts, invoices, internal notes, unapproved draft content.
+3. Check for the `old-site-import/` folder — it must never be committed here (it lives in the private Playground repo).
+4. If any of the above are found, **stop and warn the user** before proceeding.
+
+## Never commit
+
+- `.env`, `.env.local`, `.env.production`, or any dotenv file
+- API keys, analytics IDs, or ad-tracking IDs not yet live
+- Credentials of any kind (even if "just for testing")
+- Client contracts, invoices, or private correspondence
+- Draft content the client has not approved for public display
+
+## Safe to commit
+
+- Business contact info in `site-settings.json` (phone, email, WhatsApp) — displayed on the public site
+- Portfolio images and video embeds intended for the live site
+- All source code, config, and content files forming the published site
+
+## If a secret is accidentally committed
+
+Warn the user immediately:
+- The credential must be **rotated/revoked** — removing it in a later commit does NOT remove it from git history
+- Offer to help with `git filter-repo` only if the user explicitly asks
+
+## Adding features that need secrets
+
+If a new feature requires API keys or tokens (analytics, form services, CMS auth, etc.):
+- Store them as **GitHub Actions secrets** or **environment variables** in the hosting platform
+- Reference them via `process.env.VARIABLE_NAME` in code
+- Never hardcode or commit the actual values
+- Warn the user about this before implementing
