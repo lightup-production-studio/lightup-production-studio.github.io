@@ -3,7 +3,7 @@ import home from "@/content/home.json";
 export function Founder() {
   const { founder } = home;
   return (
-    <section id="founder" className="scroll-mt-20 bg-sand">
+    <section id="contact" className="bg-sand">
       <div className="mx-auto max-w-3xl px-4 py-20 md:px-6 md:py-28">
         <p className="text-xs uppercase tracking-[0.28em] text-ink-soft">
           {founder.role}

@@ -2,6 +2,7 @@
 
 :root {
   /* Brand: grey × yellow × dark */
+  --header-height: 3.75rem;
   --paper: #ededed;
   --tungsten: #ffec00;
   --ink: #282824;
@@ -27,6 +28,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) - 1px);
 }
 
 body {

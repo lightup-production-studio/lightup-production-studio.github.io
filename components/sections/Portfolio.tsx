@@ -11,7 +11,7 @@ export function Portfolio() {
   ];
 
   return (
-    <section id="work" className="scroll-mt-20 bg-ink text-paper">
+    <section id="work" className="bg-ink text-paper">
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <h2 className="font-display text-4xl tracking-[0.06em] md:text-5xl">
           {home.portfolio.title}
