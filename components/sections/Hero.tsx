@@ -20,7 +20,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-tungsten/25 mix-blend-multiply" />
       <div className="absolute inset-y-0 left-0 w-1.5 bg-tungsten md:w-2" />
 
-      <div className="relative mx-auto flex min-h-svh max-w-6xl flex-col justify-end px-4 pb-16 pt-28 md:px-6 md:pb-24">
+      <div className="relative mx-auto flex min-h-[88vh] max-w-6xl flex-col justify-end px-4 pb-16 pt-28 md:px-6 md:pb-24">
         <p className="animate-fade-up text-sm uppercase tracking-[0.28em] text-tungsten">
           {site.businessName}
         </p>
