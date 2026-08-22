@@ -1,3 +1,4 @@
+import { CopyEmailButton } from "@/components/CopyEmailButton";
 import site from "@/content/site-settings.json";
 
 export function Footer() {
@@ -17,9 +18,12 @@ export function Footer() {
               {site.phone}
             </a>
           ) : null}
-          <a href={`mailto:${site.email}`} className="hover:text-tungsten">
+          <CopyEmailButton
+            email={site.email}
+            className="cursor-pointer text-left hover:text-tungsten"
+          >
             {site.email}
-          </a>
+          </CopyEmailButton>
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-xs text-mist md:px-6">

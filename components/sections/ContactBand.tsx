@@ -1,3 +1,4 @@
+import { CopyEmailButton } from "@/components/CopyEmailButton";
 import site from "@/content/site-settings.json";
 import home from "@/content/home.json";
 
@@ -21,8 +22,8 @@ export function ContactBand() {
               WhatsApp
             </a>
           ) : null}
-          <a
-            href={`mailto:${site.email}`}
+          <CopyEmailButton
+            email={site.email}
             className={
               site.whatsapp
                 ? "border border-paper/40 px-5 py-3 text-sm font-semibold tracking-wide transition hover:border-tungsten hover:text-tungsten"
@@ -30,7 +31,7 @@ export function ContactBand() {
             }
           >
             Email
-          </a>
+          </CopyEmailButton>
         </div>
       </div>
     </section>
