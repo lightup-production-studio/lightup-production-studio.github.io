@@ -6,7 +6,7 @@ export function Hero() {
   const { hero } = home;
 
   return (
-    <section className="relative isolate min-h-[88vh] overflow-hidden bg-film text-paper">
+    <section className="relative isolate min-h-svh overflow-hidden bg-film text-paper">
       <Image
         src={hero.backgroundImage}
         alt=""

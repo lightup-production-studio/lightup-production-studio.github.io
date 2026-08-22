@@ -5,7 +5,7 @@ export function Work() {
 
   return (
     <section className="relative isolate overflow-x-clip border-t border-ink/10 bg-paper text-ink">
-      <div className="relative mx-auto max-w-6xl px-4 py-16 md:px-6 md:py-24">
+      <div className="relative mx-auto max-w-6xl px-4 pb-12 pt-10 md:px-6 md:pb-20 md:pt-12">
         <h2 className="sr-only">{work.title}</h2>
 
         {work.eyebrow ? (
