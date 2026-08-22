@@ -4,7 +4,7 @@ import home from "@/content/home.json";
 export function Clients() {
   const { clients } = home;
   return (
-    <section id="clients" className="bg-sand">
+    <section id="clients" className="scroll-mt-20 bg-sand">
       <div className="mx-auto max-w-6xl px-4 py-16 md:px-6 md:py-20">
         <h2 className="font-display text-4xl tracking-[0.06em] text-ink md:text-5xl">
           {clients.title}

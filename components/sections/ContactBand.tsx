@@ -5,7 +5,7 @@ import home from "@/content/home.json";
 export function ContactBand() {
   const { contactBand } = home;
   return (
-    <section className="bg-film text-paper">
+    <section id="contact" className="scroll-mt-20 bg-film text-paper">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-8 px-4 py-20 md:flex-row md:items-center md:px-6 md:py-24">
         <div className="max-w-2xl">
           <h2 className="font-display text-4xl tracking-[0.06em] md:text-5xl">
