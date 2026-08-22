@@ -24,6 +24,7 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lightupproduction.com"),
   title: {
     default: `${site.businessName} | Video · Copywriting · Storytelling`,
     template: `%s | ${site.businessName}`,
