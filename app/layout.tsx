@@ -31,6 +31,25 @@ export const metadata: Metadata = {
   },
   description:
     "Hong Kong studio for video, copywriting, branding, and graphic & visual — capturing moments and crafting stories.",
+  openGraph: {
+    title: `${site.businessName} | Video · Copywriting · Storytelling`,
+    description:
+      "Hong Kong studio for video, copywriting, branding, and graphic & visual — capturing moments and crafting stories.",
+    siteName: site.businessName,
+    url: "https://lightupproduction.com",
+    images: [
+      {
+        url: "/images/logo/lightup-logo.jpg",
+        width: 800,
+        height: 806,
+        alt: "Light Up Production",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    images: ["/images/logo/lightup-logo.jpg"],
+  },
 };
 
 export default function RootLayout({
