@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
 import site from "@/content/site-settings.json";
 
@@ -6,9 +7,20 @@ export function Footer() {
     <footer className="border-t border-ink/10 bg-ink text-sand">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-12 md:flex-row md:items-start md:justify-between md:px-6">
         <div>
-          <p className="font-display text-3xl tracking-[0.08em] text-paper">
-            {site.businessName}
-          </p>
+          <div className="flex items-center gap-3">
+            <span className="inline-flex h-12 w-12 shrink-0 overflow-hidden rounded-full">
+              <Image
+                src="/images/logo/lightup-logo.jpg"
+                alt=""
+                width={800}
+                height={806}
+                className="h-full w-full scale-110 object-cover"
+              />
+            </span>
+            <p className="font-display text-3xl tracking-[0.08em] text-paper">
+              {site.businessName}
+            </p>
+          </div>
           <p className="mt-2 max-w-sm text-sm text-mist">{site.tagline}</p>
         </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import site from "@/content/site-settings.json";
 
@@ -14,8 +15,17 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-6">
         <Link
           href="/"
-          className="font-display text-2xl tracking-[0.08em] text-ink transition hover:text-tungsten-deep"
+          className="inline-flex items-center gap-2 whitespace-nowrap font-display text-xl tracking-[0.08em] text-ink transition hover:text-tungsten-deep md:text-2xl"
         >
+          <span className="inline-flex h-9 w-9 shrink-0 overflow-hidden rounded-full">
+            <Image
+              src="/images/logo/lightup-logo.jpg"
+              alt=""
+              width={800}
+              height={806}
+              className="h-full w-full scale-110 object-cover"
+            />
+          </span>
           {site.businessName}
         </Link>
 
